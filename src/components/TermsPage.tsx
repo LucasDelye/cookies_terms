@@ -72,6 +72,8 @@ function TermsPage() {
           <h2 id="data-collected">2. Qué información recopilamos</h2>
           <ul>
             <li><strong>Datos de cuenta:</strong> nombre, correo electrónico, ID de usuario.</li>
+            <li><strong>Datos de contacto:</strong> número de teléfono. Es opcional: solo lo guardamos si elegís recibir novedades y promociones.</li>
+            <li><strong>Fecha de nacimiento:</strong> la usamos para verificar la edad mínima de uso y para ofrecer el consentimiento de promociones únicamente a personas mayores de edad.</li>
             <li><strong>Datos de uso:</strong> interacciones dentro de la app, escaneo de QR, puntos acumulados.</li>
             <li><strong>Datos del dispositivo:</strong> tipo de dispositivo, sistema operativo, idioma, versión de la app.</li>
           </ul>
@@ -83,6 +85,7 @@ function TermsPage() {
             <li>Para operar y mejorar la app.</li>
             <li>Para registrar tus puntos y premios.</li>
             <li>Para enviarte notificaciones o novedades (si diste tu consentimiento).</li>
+            <li>Para verificar la edad mínima de uso.</li>
             <li>Para detectar y prevenir usos indebidos.</li>
             <li>Para cumplir con obligaciones legales.</li>
           </ul>
