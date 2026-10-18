@@ -25,7 +25,7 @@ function SupportPage() {
 
         <section aria-labelledby="puntos">
           <h2 id="puntos">¿Cómo sumo Cookie Points?</h2>
-          <p>Cada vez que comprás en el local, escaneá con la app el código QR que te muestra el personal. Los puntos se acreditan al instante: 1 cookie equivale a 1 Cookie Point.</p>
+          <p>Cada vez que comprás en el local, escaneá con la app el código QR que te muestra el personal. Los puntos se acreditan al instante: cada cookie suma 10 Cookie Points.</p>
         </section>
 
         <section aria-labelledby="qr-fallido">
