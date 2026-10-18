@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Soporte · Cookies The Factory</title>
+    <meta
+      name="description"
+      content="Centro de ayuda de la app Cookies The Factory: contacto, preguntas frecuentes y baja de cuenta."
+    />
+    <style>
+      :root {
+        --navy: #12304c;
+        --pink: #f8b3dd;
+        --pink-soft: #fdeaf5;
+        --text: #12304c;
+        --muted: #5a6b7d;
+        --bg: #ffffff;
+        --border: #e3e8ee;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+      }
+      header {
+        background: var(--pink);
+        padding: 48px 20px 40px;
+        text-align: center;
+      }
+      header h1 { margin: 0 0 8px; font-size: 30px; color: var(--navy); }
+      header p { margin: 0; color: var(--navy); opacity: 0.85; }
+      main { max-width: 680px; margin: 0 auto; padding: 40px 20px 64px; }
+      section { margin-bottom: 40px; }
+      h2 {
+        font-size: 20px;
+        margin: 0 0 12px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid var(--pink);
+      }
+      .card {
+        background: var(--pink-soft);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 20px;
+      }
+      .card p { margin: 6px 0; }
+      a { color: var(--navy); font-weight: 600; }
+      details {
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 14px 16px;
+        margin-bottom: 10px;
+      }
+      details summary { cursor: pointer; font-weight: 600; }
+      details p { color: var(--muted); margin: 10px 0 0; }
+      footer {
+        border-top: 1px solid var(--border);
+        padding: 24px 20px;
+        text-align: center;
+        color: var(--muted);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Cookies The Factory</h1>
+      <p>Centro de soporte de la app</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Contactanos</h2>
+        <div class="card">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:cookiesthefactory@gmail.com"
+              >cookiesthefactory@gmail.com</a
+            >
+          </p>
+          <!-- TODO: reemplazar por el numero real cuando lo tengamos. -->
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/5492236764869">+54 9 223 676-4869</a></p>
+          <p><strong>Horario de atención:</strong> Lunes a viernes, 9 a 18 h (GMT-3)</p>
+          <p>Respondemos dentro de las 48 horas hábiles.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Preguntas frecuentes</h2>
+
+        <details>
+          <summary>¿Cómo sumo Cookie Points?</summary>
+          <p>
+            Cada vez que comprás en el local, escaneá con la app el código QR que
+            te muestra el personal. Los puntos se acreditan al instante:
+            cada cookie suma 10 Cookie Points.
+          </p>
+        </details>
+
+        <details>
+          <summary>Escaneé el QR y no se sumaron mis puntos</summary>
+          <p>
+            Verificá que tengas conexión a internet y volvé a entrar a la app. Si
+            después de unos minutos los puntos siguen sin aparecer, escribinos con
+            la fecha, el local y el monto de la compra y los acreditamos
+            manualmente.
+          </p>
+        </details>
+
+        <details>
+          <summary>¿Cómo canjeo mis premios?</summary>
+          <p>
+            Entrá a la sección Tienda, elegí el premio que quieras y confirmá el
+            canje. Mostrá el comprobante en el local para retirarlo.
+          </p>
+        </details>
+
+        <details>
+          <summary>Olvidé mi contraseña</summary>
+          <p>
+            En la pantalla de inicio de sesión tocá “¿Olvidaste tu contraseña?” y
+            seguí los pasos que te enviamos por email.
+          </p>
+        </details>
+
+        <details>
+          <summary>¿Por qué la app pide acceso a la cámara?</summary>
+          <p>
+            Únicamente para escanear el código QR de Cookie Points en el local. No
+            guardamos ni subimos ninguna foto.
+          </p>
+        </details>
+      </section>
+
+      <section>
+        <h2>Eliminar mi cuenta</h2>
+        <div class="card">
+          <p>
+            Podés borrar tu cuenta y todos tus datos desde la propia app, en <em>Ajustes → Borrar cuenta</em>. Si preferís que lo hagamos nosotros, escribinos a
+            <a href="mailto:cookiesthefactory@gmail.com"
+              >cookiesthefactory@gmail.com</a
+            >
+            desde el email con el que te registraste. La baja se procesa dentro de
+            los 30 días.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="year">2026</span> Cookies The Factory · Todos los derechos
+      reservados
+      <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
+</html>
